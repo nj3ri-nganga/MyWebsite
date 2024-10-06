@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Njeri Ng'ang'a website</title>
+  <style>
+    /* Style the body to have a full-page orange aura background */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh; /* Full viewport height */
+      background-image: url('aura.jpg'); /* This insets the image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style the circle in the center */
+    .circle {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background-image: url('aura.jpg'); /* This inserts the aura image  */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+    }
+
+    /* Style for the bubble in the top-left corner- Linkedin link  */
+    .bubble {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 200px; /* width of the circle*/
+      height: 200px; /* height of the circle */
+      border-radius: 50%;
+      background-color: #ff6347;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+      background-image: url('blueAura.jpg'); /* This adds 'blueAura' image */
+      background-size: cover;
+      background-position: center;
+      color: white; /* Text color */
+    }
+
+    /* Hover effect for the bubble */
+    .bubble:hover {
+      transform: scale(1.1);
+    }
+
+    /* Style for text inside the bubble */
+    .bubble span {
+      text-align: center;
+      font-size: 17px;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+
+/* Style for the bubble2 in the top-right corner- Github link  */
+    .bubble2 {
+      position: absolute;
+      top: 20px;
+      left: 1000px;
+      width: 200px; /* width of the circle*/
+      height: 200px; /* height of the circle */
+      border-radius: 50%;
+      background-color: #ff6347;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+      background-image: url('greenAura.jpg'); /* This adds 'greenAura' image */
+      background-size: cover;
+      background-position: center;
+      color: white; /* Text color */
+    }
+
+    /* Hover effect for the bubble2 */
+    .bubble2:hover {
+      transform: scale(1.1);
+    }
+
+    /* Style for text inside the bubble2 */
+    .bubble2 span {
+      text-align: center;
+      font-size: 17px;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+/* Style for the bubble3 in the bottom-right corner- Blog post link  */
+    .bubble3 {
+      position: absolute;
+      top: 400px;
+      left: 1000px;
+      width: 200px; /* width of the circle*/
+      height: 200px; /* height of the circle */
+      border-radius: 50%;
+      background-color: #ff6347;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+      background-image: url('purpleAura.jpg'); /* This adds 'purpleAura' image */
+      background-size: cover;
+      background-position: center;
+      color: white; /* Text color */
+    }
+
+    /* Hover effect for the bubble3 */
+    .bubble3:hover {
+      transform: scale(1.1);
+    }
+
+    /* Style for text inside the bubble3 */
+    .bubble3 span {
+      text-align: center;
+      font-size: 17px;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Circle with text inside -->
+  <div class="circle">
+    Hello, my name is Njeri
+    <br>
+    Click the bubbles to find out more about me!!
+  </div>
+
+  <!-- Clickable bubble in the top-left corner with text overlay -->
+  <a href="https://www.linkedin.com/in/njeri-ng-ang-a-b3a77a32a/"_blank">
+    <div class="bubble">
+      <span>Click me to visit my Linkedin!!</span>
+    </div>
+  </a>
+
+<!-- Clickable bubble2 in the top-right corner with text overlay -->
+  <a href="https://github.com/nj3ri-nganga" target="_blank">
+    <div class="bubble2">
+      <span>Click me to visit my Github!!</span>
+    </div>
+  </a>
+
+<!-- Clickable bubble3 in the bottom-right corner with text overlay -->
+  <a href="https://nj3ri-blog.blogspot.com/"_blank">
+    <div class="bubble3">
+      <span>Click me to visit my Blog!!</span>
+    </div>
+  </a>
+
+
+
+
+</body>
+</html>
